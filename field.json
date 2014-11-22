@@ -33,7 +33,7 @@
     "description" : "your id on plurk.com",
     "type" : ["string"],
     "mediaType" : "link",
-    "tramsform" : "http://www.plurk.com/{field}",
+    "transform" : "http://www.plurk.com/{field}",
     "isAlternative" : true
   },
   {
@@ -41,7 +41,7 @@
     "description" : "your id on github.com",
     "type" : ["string"],
     "mediaType" : "link",
-    "tramsform" : "https://github.com/{field}",
+    "transform" : "https://github.com/{field}",
     "isAlternative" : true
   },
   {
@@ -49,7 +49,7 @@
     "description" : "your personal email(s)",
     "type" : ["string", "array"],
     "mediaType" : "link",
-    "tramsform" : "mailto://{field}",
+    "transform" : "mailto://{field}",
     "isAlternative" : true
   },
   {
