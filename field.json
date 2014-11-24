@@ -26,6 +26,8 @@
     "key" : "facebook",
     "description" : "your id on facebook.com",
     "type" : ["string"],
+    "mediaType" : "link",
+    "transform" : "https://www.facebook.com/{field}",
     "isAlternative" : true
   },
   {
