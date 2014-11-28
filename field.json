@@ -1,5 +1,12 @@
 [
   {
+    "key" : "image",
+    "description" : "your avatar",
+    "type" : ["string"],
+    "mediaType" : "image",
+    "isAlternative" : true
+  },
+  {
     "key" : "id",
     "description" : "nick which you generally used on #ysitd in irc.freenode.net",
     "type" : ["string"]
@@ -47,6 +54,14 @@
     "isAlternative" : true
   },
   {
+    "key" : "twitter",
+    "description" : "your id on twitter.com",
+    "type" : ["string"],
+    "mediaType" : "link",
+    "transform" : "https://twitter.com/{field}",
+    "isAlternative" : true
+  },
+  {
     "key" : "email",
     "description" : "your personal email(s)",
     "type" : ["string", "array"],
@@ -64,12 +79,5 @@
     "key" : "owner",
     "description" : "the owner of this bot, leave your own ID if you're a human.",
     "type" : ["string"]
-  },
-  {
-    "key" : "image",
-    "description" : "your avatar",
-    "type" : ["string"],
-    "mediaType" : "image",
-    "isAlternative" : true
   }
 ]
